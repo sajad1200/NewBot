@@ -5,9 +5,8 @@
 *TG-CLI based broadcasting bot!*
 
 ```
-cd $HOME
-git clone https://github.com/VentTM/MagaNot.git
-cd MegaNot
+git clone https://github.com/VentTM/NewBot.git
+cd NewBot
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh
