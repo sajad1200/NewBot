@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-THIS_DIR=$(cd $(dirname $0); pwd)
-cd $THIS_DIR
-
 install() {
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get install g++-4.7 c++-4.7
@@ -25,8 +22,7 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo luarocks install dkjson
  sudo luarocks install lanes
  sudo luarocks install Lua-cURL
- cd $home
- cd MegaNot
+ cd NewBot
   wget https://valtman.name/files/telegram-cli-1124
 mv telegram-cli-1124 tg
 chmod +x tg
